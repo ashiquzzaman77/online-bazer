@@ -9,6 +9,13 @@
     .res-cart{
         display : none;
     }
+    .benefit-body{
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr)) !important;
+        grid-gap: 25px !important;
+    }
+    .benefit-body-list{
+        padding: 20px 15px !important;
+    }
 }
 /* for large device  */
 @media screen and (min-width: 993px) and (max-width: 1200px){
