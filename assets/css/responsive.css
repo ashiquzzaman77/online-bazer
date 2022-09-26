@@ -1,0 +1,204 @@
+/* for xxl device  */
+@media screen and (min-width: 1401px) and (max-width: 2000px){
+    .res-cart{
+        display : none;
+    }
+}
+/* for xl device  */
+@media screen and (min-width: 1201px) and (max-width: 1400px){
+    .res-cart{
+        display : none;
+    }
+}
+/* for large device  */
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    .res-cart{
+        display : none;
+    }
+    .small-footer{
+        margin-top: 40px;
+    }
+    /* all product */
+    .body-left{
+        flex-basis: 25% !important;
+    }
+    .body-right{
+        flex-basis: 73% !important;
+    }
+    
+}
+/* for medium device  */
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .res-cart{
+        margin-left: auto;
+        margin-right: 10px;
+    }
+    .res-cart .fa-solid{
+        font-size: 22px !important;
+        margin-top: 10px;
+    }
+    .flex-row{
+        margin-top: 10px;
+    }
+    .res2-cart{
+        display : none;
+    }
+    .small-footer{
+        margin-top: 40px;
+    }
+     /* all product */
+     .all-product-body{
+        margin-top: 50px !important;
+    }
+    .body-left{
+        flex-basis: 40% !important;
+    }
+    .body-right{
+        flex-basis: 57% !important;
+    }
+    /* cart section */
+    .cart-section-body-left{
+        flex-basis: 100% !important;
+    }
+    .cart-section-body-right{
+        flex-basis: 100% !important;
+    }
+     /* address section */
+     .address-body-left{
+        flex-basis: 100% !important;
+    }
+    .address-body-right{
+        flex-basis: 100% !important;	
+    }
+    /* contact section */
+    .contact-body-left{
+        flex-basis: 100% !important;
+    }
+    .contact-body-right{
+        flex-basis: 100% !important;
+    }
+}
+
+/* for sm device  */
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .res-cart{
+        margin-left: auto;
+        margin-right: 10px;
+    }
+    .res-cart .fa-solid{
+        font-size: 22px !important;
+        margin-top: 10px;
+    }
+    .flex-row{
+        margin-top: 10px;
+    }
+    .res2-cart{
+        display : none;
+    }
+    .small-footer{
+        margin-top: 40px;
+    }
+    /* all product */
+    .all-product-body{
+        margin-top: 0 !important;
+    }
+    /* .pt-5{
+        padding-top: 2px !important;
+    } */
+    .body-left{
+        flex-basis: 100% !important;
+    }
+    .body-right{
+        flex-basis: 100% !important;
+    }
+    /* product detail */
+    .product-body-left{
+        flex-basis: 100% !important;
+        margin-bottom: 20px;
+    }
+    .product-body-right{
+        flex-basis: 100% !important;
+    }
+    /* cart section */
+    .cart-section-body-left{
+        flex-basis: 100% !important;
+    }
+    .cart-section-body-right{
+        flex-basis: 100% !important;
+    }
+     /* address section */
+     .address-body-left{
+        flex-basis: 100% !important;
+    }
+    .address-body-right{
+        flex-basis: 100% !important;	
+    }
+     /* contact section */
+     .contact-body-left{
+        flex-basis: 100% !important;
+    }
+    .contact-body-right{
+        flex-basis: 100% !important;
+    }
+}
+
+/* for x-small device */
+@media screen and (min-width: 0px) and (max-width: 575px){
+    .res-cart{
+        margin-left: auto;
+        margin-right: 10px;
+    }
+    .res-cart .fa-solid{
+        font-size: 22px !important;
+        margin-top: 10px;
+    }
+    .flex-row{
+        margin-top: 10px;
+    }
+    .res2-cart{
+        display : none;
+    }
+    .small-footer{
+        margin-top: 40px;
+    }
+     /* all product */
+     .all-product-body{
+        margin-top: 1px !important; 
+    }
+    .body-left{
+        flex-basis: 100% !important;
+        margin-bottom: 20px;
+    }
+    .body-right{
+        flex-basis: 100% !important;
+    }
+    /* product detail */
+    .product-body-left{
+        flex-basis: 100% !important;
+        margin-bottom: 20px;
+    }
+    .product-body-right{
+        flex-basis: 100% !important;
+    }
+    /* cart section */
+    .cart-section-body-left{
+        flex-basis: 100% !important;
+    }
+    .cart-section-body-right{
+        flex-basis: 100% !important;
+    }
+    /* address section */
+    .address-body-left{
+        flex-basis: 100% !important;
+    }
+    .address-body-right{
+        flex-basis: 100% !important;	
+    }
+    /* contact section */
+    .contact-body-left{
+        flex-basis: 100% !important;
+    }
+    .contact-body-right{
+        flex-basis: 100% !important;
+    }
+}

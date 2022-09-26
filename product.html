@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap E-Commerce | Ashik</title>
+        <!-- meta tag -->
+        <meta charset="UTF-8">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- font awesome -->
+		<script src="https://kit.fontawesome.com/f7032ef1b7.js" crossorigin="anonymous"></script>
+        <!-- link section -->
+		<link rel="icon" href="#">
+		<!-- bootstrap cdn link -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+		<!-- responsibe link -->
+		<link rel="stylesheet" href="assets/css/responsive.css">
+		<!-- custom css link -->
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+		<!-- start header section -->
+		<header class="bg-light py-auto ">
+			<div class="container-sm">
+				<nav class="navbar pt-4 navbar-expand-lg">
+					  <a class="navbar-brand" href="index.html">F<span>a</span>mms</a>
+					  <a href="cart.html" class="res-cart"><i class="fa-solid fa-cart-shopping"></i></a>
+					  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					  </button>
+					  <div class="collapse navbar-collapse custom-header" id="navbarScroll">
+						<ul class="navbar-nav ms-auto my-2 me-5 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+						  <li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="product.html">Product</a>
+						  </li>
+						  <li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							  Shopping
+							</a>
+							<ul class="dropdown-menu">
+							  <li><a class="dropdown-item" href="#">About</a></li>
+							  <li><a class="dropdown-item" href="#">Testimonial</a></li>
+							  <li><hr class="dropdown-divider"></li>
+							  <li><a class="dropdown-item" href="product-detail.html">Customer Review</a></li>
+							</ul>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="#">Blog</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						  </li>
+						</ul>
+						<a href="cart.html"><i class="fa-solid fa-cart-shopping res2-cart"></i></a>
+						<!-- <form class="d-flex" role="search">
+						  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+						  <button class="btn btn-outline-success" type="submit">Search</button>
+						</form> -->
+					  </div>
+				  </nav>
+			</div>
+		</header>
+		<!-- end header section  -->
+		<!-- back section start -->
+		<section id="back-section" class="mt-5">
+			<div class="container-sm bg-white text-center back-padding">
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb">
+					  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+					  <li class="breadcrumb-item active" aria-current="page">Product</li>
+					</ol>
+				</nav>
+			</div>
+		</section>
+		<!-- back section end -->
+		<!-- all Products section -->
+		<section id="all-product">
+			<div class="container-sm">
+				<div class="all-product-body">
+					<div class="body-left">
+						<h2 class="pb-3 pt-5">Filter by price</h2>
+						<div class="filter-check">
+							<div class="form-check pb-2">
+								<input class="form-check-input" type="checkbox" value="" id="allprice">
+								<label class="form-check-label label-section" for="allprice">
+									All Price<span class="badge text-light">1000</span>
+								</label>
+							</div>
+							<div class="form-check pb-2">
+								<input class="form-check-input" type="checkbox" value="" id="takarange" checked>
+								<label class="form-check-label" for="takarange">
+								  Tk 20-200
+								</label>
+							</div>
+							<div class="form-check pb-2">
+								<input class="form-check-input" type="checkbox" value="" id="takarange" checked>
+								<label class="form-check-label" for="takarange">
+								  Tk 20-200
+								</label>
+							</div>
+							<div class="form-check pb-2">
+								<input class="form-check-input" type="checkbox" value="" id="takarange" checked>
+								<label class="form-check-label" for="takarange">
+								  Tk 20-200
+								</label>
+							</div>
+							 <div class="form-check pb-2">
+								<input class="form-check-input" type="checkbox" value="" id="takarange" checked>
+								<label class="form-check-label" for="takarange">
+								  Tk 20-200
+								</label>
+							</div>
+							<div class="form-check pb-2">
+								<input class="form-check-input" type="checkbox" value="" id="takarange" checked>
+								<label class="form-check-label" for="takarange">
+								  Tk 20-200
+								</label>
+							</div>
+						</div>
+						<h2 class="pt-5 pb-3">All Size</h2>
+						<div class="filter-check">
+							<div class="form-check pb-2">
+								<input class="form-check-input" type="checkbox" value="" id="allprice">
+								<label class="form-check-label label-section" for="allprice">
+									All Size<span class="badge text-light">600</span>
+								</label>
+							</div>
+							<div class="form-check pb-2">
+								<input class="form-check-input" type="checkbox" value="" id="takarange" >
+								<label class="form-check-label" for="takarange">
+								  Small
+								</label>
+							</div>
+							<div class="form-check pb-2">
+								<input class="form-check-input" type="checkbox" value="" id="takarange">
+								<label class="form-check-label" for="takarange">
+								  Medium
+								</label>
+							</div>
+							<div class="form-check pb-2">
+								<input class="form-check-input" type="checkbox" value="" id="takarange">
+								<label class="form-check-label" for="takarange">
+								  Large
+								</label>
+							</div>
+							 <div class="form-check pb-2">
+								<input class="form-check-input" type="checkbox" value="" id="takarange">
+								<label class="form-check-label" for="takarange">
+								  XL
+								</label>
+							</div>
+							<div class="form-check pb-2">
+								<input class="form-check-input" type="checkbox" value="" id="takarange">
+								<label class="form-check-label" for="takarange">
+								  XXL
+								</label>
+							</div>
+						</div>
+						<h2 class="pt-5 pb-3">All Color</h2>
+						<div class="filter-check">
+							<div class="form-check pb-2">
+								<input class="form-check-input" type="checkbox" value="" id="allprice">
+								<label class="form-check-label label-section" for="allprice">
+									All Color<span class="badge text-light">600</span>
+								</label>
+							</div>
+							<div class="form-check pb-2">
+								<input class="form-check-input" type="checkbox" value="" id="takarange">
+								<label class="form-check-label" for="takarange">
+								  White
+								</label>
+							</div>
+							<div class="form-check pb-2">
+								<input class="form-check-input" type="checkbox" value="" id="takarange">
+								<label class="form-check-label" for="takarange">
+								  Orange
+								</label>
+							</div>
+							<div class="form-check pb-2">
+								<input class="form-check-input" type="checkbox" value="" id="takarange">
+								<label class="form-check-label" for="takarange">
+								  Green
+								</label>
+							</div>
+							<div class="form-check pb-2">
+								<input class="form-check-input" type="checkbox" value="" id="takarange">
+								<label class="form-check-label" for="takarange">
+								  Yellow
+								</label>
+							</div>
+							<div class="form-check pb-2">
+								<input class="form-check-input" type="checkbox" value="" id="takarange">
+								<label class="form-check-label" for="takarange">
+								  Black
+								</label>
+							</div>
+							<div class="form-check pb-2">
+								<input class="form-check-input" type="checkbox" value="" id="takarange">
+								<label class="form-check-label" for="takarange">
+								  Red
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="body-right">
+						<div class="label-section pb-3">
+							<h2>All Products</h2>
+							<select class="form-select w-auto ms-auto" aria-label="Default select example">
+								<option selected>Sorting</option>
+								<option value="1">Recently</option>
+								<option value="2">Popularity</option>
+								<option value="3">Priceing</option>
+							</select>
+							<select class="form-select w-auto ms-1" aria-label="Default select example">
+								<option selected>Showing</option>
+								<option value="10">10</option>
+								<option value="20">20</option>
+								<option value="30">30</option>
+							</select>
+						</div>
+						<div class="row row-cols-1 row-cols-lg-3 g-4">
+						<!-- 1st part -->
+							<div class="col">   
+								<div class="card h-100">
+									<div class="overlay">
+										<img src="assets/images/product-1.jpg" class="card-img-top img-fluid w-100 overlay-info" alt="...">
+										<div class="layer">
+											<a href="product-detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+											<a href="#"><i class="fa-solid fa-heart"></i></a>
+											<a href="#"><i class="fa-solid fa-rotate"></i></a>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										<h5 class="card-title">Product Name Goes Here</h5>
+										<p class="card-text">Tk 350 <del>Tk 450</del></p>
+										<div class="featured-star-img">
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star-half-stroke"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						<!-- 2nd part -->
+							<div class="col">
+								<div class="card h-100">
+									<div class="overlay">
+										<img src="assets/images/product-2.jpg" class="card-img-top img-fluid w-100 overlay-info" alt="image will bo loaded">
+										<div class="layer">
+											<a href="product-detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+											<a href="#"><i class="fa-solid fa-heart"></i></a>
+											<a href="#"><i class="fa-solid fa-rotate"></i></a>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										<h5 class="card-title">Product Name Goes Here</h5>
+										<p class="card-text">Tk 350 <del>Tk 450</del></p>
+										<div class="featured-star-img">
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star-half-stroke"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						<!-- 3rd part -->
+							<div class="col">
+								<div class="card h-100">
+									<div class="overlay">
+									<img src="assets/images/product-3.jpg" class="card-img-top img-fluid w-100 overlay-info" alt="image will bo loaded">
+										<div class="layer">
+											<a href="product-detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+											<a href="#"><i class="fa-solid fa-heart"></i></a>
+											<a href="#"><i class="fa-solid fa-rotate"></i></a>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										<h5 class="card-title">Product Name Goes Here</h5>
+										<p class="card-text">Tk 350 <del>Tk 450</del></p>
+										<div class="featured-star-img">
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star-half-stroke"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						<!-- 4th part -->
+							<div class="col">
+								<div class="card h-100">
+									<div class="overlay">
+									<img src="assets/images/product-4.jpg" class="card-img-top img-fluid w-100 overlay-info" alt="image will bo loaded">
+										<div class="layer">
+											<a href="product-detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+											<a href="#"><i class="fa-solid fa-heart"></i></a>
+											<a href="#"><i class="fa-solid fa-rotate"></i></a>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										<h5 class="card-title">Product Name Goes Here</h5>
+										<p class="card-text">Tk 350 <del>Tk 450</del></p>
+										<div class="featured-star-img">
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star-half-stroke"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						<!-- 5th part -->
+							<div class="col">   
+								<div class="card h-100">
+									<div class="overlay">
+										<img src="assets/images/product-5.jpg" class="card-img-top img-fluid w-100 overlay-info" alt="...">
+										<div class="layer">
+											<a href="product-detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+											<a href="#"><i class="fa-solid fa-heart"></i></a>
+											<a href="#"><i class="fa-solid fa-rotate"></i></a>
+										</div>
+									</div>
+									<div class="card-body text-center">
+										<h5 class="card-title">Product Name Goes Here</h5>
+										<p class="card-text">Tk 350 <del>Tk 450</del></p>
+										<div class="featured-star-img">
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star-half-stroke"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						<!-- 6th part -->
+							<div class="col">   
+								<div class="card h-100">
+									<div class="overlay">
+										<img src="assets/images/product-6.jpg" class="card-img-top img-fluid w-100 overlay-info" alt="...">
+											<div class="layer">
+												<a href="product-detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+												<a href="#"><i class="fa-solid fa-heart"></i></a>
+												<a href="#"><i class="fa-solid fa-rotate"></i></a>
+											</div>
+									</div>
+									<div class="card-body text-center">
+										<h5 class="card-title">Product Name Goes Here</h5>
+										<p class="card-text">Tk 350 <del>Tk 450</del></p>
+										<div class="featured-star-img">
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star-half-stroke"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						<!-- 7th part -->
+							<div class="col">   
+								<div class="card h-100">
+									<div class="overlay">
+										<img src="assets/images/product-7.jpg" class="card-img-top img-fluid w-100 overlay-info" alt="...">
+											<div class="layer">
+												<a href="product-detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+												<a href="#"><i class="fa-solid fa-heart"></i></a>
+												<a href="#"><i class="fa-solid fa-rotate"></i></a>
+											</div>
+									</div>
+									<div class="card-body text-center">
+										<h5 class="card-title">Product Name Goes Here</h5>
+										<p class="card-text">Tk 350 <del>Tk 450</del></p>
+										<div class="featured-star-img">
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star-half-stroke"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						<!-- 8th part -->
+							<div class="col">   
+								<div class="card h-100">
+									<div class="overlay">
+										<img src="assets/images/product-8.jpg" class="card-img-top img-fluid w-100 overlay-info" alt="...">
+											<div class="layer">
+												<a href="product-detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+												<a href="#"><i class="fa-solid fa-heart"></i></a>
+												<a href="#"><i class="fa-solid fa-rotate"></i></a>
+											</div>
+									</div>
+									<div class="card-body text-center">
+										<h5 class="card-title">Product Name Goes Here</h5>
+										<p class="card-text">Tk 350 <del>Tk 450</del></p>
+										<div class="featured-star-img">
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star"></i>
+										<i class="fa-solid fa-star-half-stroke"></i>
+										</div>
+									</div>
+									</div>
+								</div>
+							<!-- 9th part -->
+								<div class="col">   
+									<div class="card h-100">
+									<div class="overlay">
+										<img src="assets/images/product-9.jpg" class="card-img-top img-fluid w-100 overlay-info" alt="...">
+											<div class="layer">
+												<a href="product-detail.html"><i class="fa-solid fa-cart-shopping"></i></a>
+												<a href="#"><i class="fa-solid fa-heart"></i></a>
+												<a href="#"><i class="fa-solid fa-rotate"></i></a>
+											</div>
+									</div>
+									<div class="card-body text-center">
+										<h5 class="card-title">Product Name Goes Here</h5>
+										<p class="card-text">Tk 350 <del>Tk 450</del></p>
+										<div class="featured-star-img">
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star"></i>
+											<i class="fa-solid fa-star-half-stroke"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- start pagaination section  -->
+						<nav aria-label="Page navigation example" class="mt-5">
+							<ul class="pagination justify-content-center">
+							  <li class="page-item">
+								<a class="page-link text-dark"><span aria-hidden="true">&laquo;</span>
+								</a>
+							  </li>
+							  <li class="page-item"><a class="page-link text-dark" href="#">1</a></li>
+							  <li class="page-item"><a class="page-link text-dark" href="#">2</a></li>
+							  <li class="page-item"><a class="page-link text-dark" href="#">3</a></li>
+							  <li class="page-item"><a class="page-link text-dark" href="#">4</a></li>
+							  <li class="page-item"><a class="page-link text-dark" href="#">5</a></li>
+							  <li class="page-item"><a class="page-link text-dark" href="#">6</a></li>
+							  <li class="page-item">
+								<a class="page-link text-dark" href="#"><span aria-hidden="true">&raquo;</span>
+								</a>
+							  </li>
+							</ul>
+						</nav>
+						<!-- end pagaination section  -->
+				 	</div>
+					<!-- end right part -->
+				</div>
+			</div>
+		</section>
+		<!-- all Products section -->
+		<!-- start new arrivals -->
+		<section id="new-arrivals" class="mt-5">
+			<div class="container-fluid">
+				<div class="row row-cols-1 row-cols-lg-4 new-arrival-body bg-light py-5">
+					<div class="col col-lg-4">
+						<img src="assets/images/new-arrival.png" class="img-fluid w-100 ps-5" alt="...">
+					</div>
+					<div class="col col-lg-6 gy-5">
+						<h2>#New Arrivals</h2>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam enim aspernatur voluptatum sunt amet eligendi quasi possimus recusandae iusto corporis? Dolores maxime nihil libero dolorum labore, tenetur, architecto, dolorem facere laudantium saepe placeat animi cumque tempore quis assumenda quibusdam molestias quae delectus quasi. Debitis accusamus illum similique dignissimos eveniet harum.</p>
+						<div class="new-arrival-buy">
+							<a href="product-detail.html">Buy Now &nbsp;&#x2794;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end new arrivals -->
+		<!-- start footer section -->
+		<footer id="footer" class="py-5 bg-dark">
+			<div class="container-sm">
+				<div class="row row-cols-1 row-cols-lg-4 text-light ">
+					<div class="col col-lg-5">
+						<h3 class="pb-2 fw-bolder">Get In Touch</h3>
+						<h5 class="pb-3">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor. Rebum tempor no vero est magna amet no</h5>
+						<p class="footer-i"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;123 Street, Basaboo, DHAKA</p>
+						<p class="footer-i"><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;ashiquzzaman.rajib.cse@gmail.com</p>
+						<p class="footer-i"><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;+880 1728499226</p>
+					</div>
+					<div class="col col-lg-2">
+						<h3 class="pb-2 fw-bolder">Quick Shop</h3>
+						<ul class="quick-shop">
+							<li class="list-unstyled">
+								<a class="text-decoration-none text-light" href="index.html">Home</a>
+							</li>
+							<li class="list-unstyled py-2"><a class="text-decoration-none text-light" href="product.html">Our Shop</a></li>
+							<li class="list-unstyled py-2"><a class="text-decoration-none text-light" href="product-detail.html">Shop Detail</a></li>
+							<li class="list-unstyled py-2"><a class="text-decoration-none text-light" href="cart.html">Shopping Cart</a></li>
+							<li class="list-unstyled py-2"><a class="text-decoration-none text-light" href="index.html">Check Out</a></li>
+							<li class="list-unstyled py-2"><a class="text-decoration-none text-light" href="contact.html">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="col col-lg-2">
+						<h3 class="pb-2 fw-bolder">My Account</h3>
+						<ul class="quick-shop">
+							<li class="list-unstyled"><a class="text-decoration-none text-light" href="index.html">Home</a></li>
+							<li class="list-unstyled py-2"><a class="text-decoration-none text-light" href="product.html">Our Shop</a></li>
+							<li class="list-unstyled py-2"><a class="text-decoration-none text-light" href="product-detail.html">Shop Detail</a></li>
+							<li class="list-unstyled py-2"><a class="text-decoration-none text-light" href="cart.html">Shopping Cart</a></li>
+							<li class="list-unstyled py-2"><a class="text-decoration-none text-light" href="index.html">Check Out</a></li>
+							<li class="list-unstyled py-2"><a class="text-decoration-none text-light" href="contact.html">Contact Us</a></li>
+						</ul>
+					</div>
+					<div class="col col-lg-3">
+						<h3 class="pb-2 fw-bolder">Newsletter</h3>
+						<p>Duo stet tempor ipsum sit amet magna ipsum tempor est</p>
+						<form class="pb-3">
+							<label class="visually-hidden" for="email">Email</label>
+							<div class="input-group">
+							<input type="text" class="form-control" id="email" placeholder="Your Eamil">
+							<div class="input-group-text"><a href="#">Sign Up</a></div>
+							</div>
+						</form>	
+						<h4 class="pb-3">Follow Us</h4>
+							<a href="#" class="social-media"><i class="fa-brands fa-facebook-f"></i></a>
+							<a href="#" class="social-media"><i class="fa-brands fa-whatsapp"></i></a>
+							<a href="#" class="social-media"><i class="fa-brands fa-linkedin-in"></i></a>
+							<a href="#" class="social-media"><i class="fa-brands fa-pinterest"></i></a>
+					</div>
+				</div>
+				<h6 class="text-white text-center small-footer"><hr>&copy 2022 &nbsp;&nbsp;All right reserved By Ashiquzzaman</h6>
+			</div>
+		</footer>
+		<!-- end footer section  -->
+		<!-- JavaScript bootstrap cdn link -->
+		<script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
